@@ -52,7 +52,7 @@ export default function Dashboard() {
                     )
                   }
                 >
-                  Capacity
+                  Efficiency
                 </NavLink>
                 <NavLink
                   to="/realtime"
