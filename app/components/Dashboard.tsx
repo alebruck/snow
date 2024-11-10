@@ -40,6 +40,21 @@ export default function Dashboard() {
                   Dashboard
                 </NavLink>
                 <NavLink
+                  to="/capacity"
+                  className={({ isActive }) =>
+                    classNames(
+                      "inline-flex items-center px-1 pt-1 text-sm font-medium",
+                      {
+                        "border-indigo-500 text-gray-900": isActive,
+                        "border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700":
+                          !isActive,
+                      }
+                    )
+                  }
+                >
+                  Capacity
+                </NavLink>
+                <NavLink
                   to="/realtime"
                   className={({ isActive }) =>
                     classNames(

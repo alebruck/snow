@@ -1,3 +1,5 @@
+import map from "../libs/map.png";
+
 export default function Map() {
-  return "map";
+  return <img alt="Map" src={map} style={{ objectFit: "contain" }} />;
 }
