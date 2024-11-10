@@ -1,0 +1,197 @@
+[
+  {
+    "name": "FI 12er-Bahn",
+    "theoreticalMaxCapacity": 2955.7855277273147,
+    "efficiency": 68.88185833853338
+  },
+  {
+    "name": "FI Almbahn",
+    "theoreticalMaxCapacity": 2136.182949790397,
+    "efficiency": 65.63108277488897
+  },
+  {
+    "name": "FI Ladis Talstation",
+    "theoreticalMaxCapacity": 2236.957211304263,
+    "efficiency": 66.38481918633424
+  },
+  {
+    "name": "FI Möseralmbahn Berg",
+    "theoreticalMaxCapacity": 527.7407750355029,
+    "efficiency": 69.3522307377856
+  },
+  {
+    "name": "FI Möseralm Fiss",
+    "theoreticalMaxCapacity": 2992.7564365817843,
+    "efficiency": 66.92826638066653
+  },
+  {
+    "name": "FI Möserlift",
+    "theoreticalMaxCapacity": 568.4207392770454,
+    "efficiency": 65.79633256796323
+  },
+  {
+    "name": "FI Poschilift",
+    "theoreticalMaxCapacity": 802.8269683274186,
+    "efficiency": 67.38687430083475
+  },
+  {
+    "name": "FI Rastbahn",
+    "theoreticalMaxCapacity": 1643.9719978228925,
+    "efficiency": 71.95986315865743
+  },
+  {
+    "name": "FI Sattelbahn",
+    "theoreticalMaxCapacity": 2074.3771027503167,
+    "efficiency": 71.90110216809143
+  },
+  {
+    "name": "FI Schöngampbahn",
+    "theoreticalMaxCapacity": 3391.7317578815887,
+    "efficiency": 68.46060259937174
+  },
+  {
+    "name": "FI Schönjochbahn Berg",
+    "theoreticalMaxCapacity": 757.1199321994828,
+    "efficiency": 65.77557647350235
+  },
+  {
+    "name": "FI Schönjochbahn Talst.",
+    "theoreticalMaxCapacity": 2851.4751091034186,
+    "efficiency": 79.02927129911232
+  },
+  {
+    "name": "FI Schönjoch Mitte Bergfahrt",
+    "theoreticalMaxCapacity": 1169.4922763706431,
+    "efficiency": 65.66952305006933
+  },
+  {
+    "name": "FI Schönjoch Mitte Talfahrt",
+    "theoreticalMaxCapacity": 263.0814851956098,
+    "efficiency": 78.87290124035786
+  },
+  {
+    "name": "FI Sonnenbahn Fiss",
+    "theoreticalMaxCapacity": 1720.9689464729465,
+    "efficiency": 75.77126842831726
+  },
+  {
+    "name": "FI Übungslift Fiss",
+    "theoreticalMaxCapacity": 665.9329799752906,
+    "efficiency": 77.63544013380795
+  },
+  {
+    "name": "FI Wonnelift",
+    "theoreticalMaxCapacity": 413.4368183642668,
+    "efficiency": 66.75747967778348
+  },
+  {
+    "name": "SF 4-SK Alpkopf",
+    "theoreticalMaxCapacity": 1993.263534637618,
+    "efficiency": 79.81884845393759
+  },
+  {
+    "name": "SF Alpkopfbahn",
+    "theoreticalMaxCapacity": 2076.637549055522,
+    "efficiency": 68.52423527866942
+  },
+  {
+    "name": "SF Alpkopf Berg Talfahrt",
+    "theoreticalMaxCapacity": 48.52289462098049,
+    "efficiency": 78.31354723749196
+  },
+  {
+    "name": "SF Alpkopf Mitte",
+    "theoreticalMaxCapacity": 796.9750403548337,
+    "efficiency": 76.28846189829268
+  },
+  {
+    "name": "SF Familienbahn Gampen",
+    "theoreticalMaxCapacity": 3019.5331337137545,
+    "efficiency": 69.01729200225292
+  },
+  {
+    "name": "SF Komperdell Berg Talfahrt",
+    "theoreticalMaxCapacity": 1683.4687031930275,
+    "efficiency": 65.75708820130473
+  },
+  {
+    "name": "SF Komperdell Mitte Bergfahrt",
+    "theoreticalMaxCapacity": 1312.7457645508848,
+    "efficiency": 73.20533997904585
+  },
+  {
+    "name": "SF Komperdell Mitte Talfahrt",
+    "theoreticalMaxCapacity": 750.6149525561975,
+    "efficiency": 71.14166833227587
+  },
+  {
+    "name": "SF Komperdell Talstation",
+    "theoreticalMaxCapacity": 3042.6105200450033,
+    "efficiency": 71.48466705386365
+  },
+  {
+    "name": "SF Königsleithebahn",
+    "theoreticalMaxCapacity": 2510.8830920163005,
+    "efficiency": 68.42214221214114
+  },
+  {
+    "name": "SF Lawensbahn",
+    "theoreticalMaxCapacity": 1393.8758016572997,
+    "efficiency": 78.19921966533924
+  },
+  {
+    "name": "SF Lazidbahn",
+    "theoreticalMaxCapacity": 2702.387332297484,
+    "efficiency": 71.30732064088406
+  },
+  {
+    "name": "SF Lazid Talfahrt",
+    "theoreticalMaxCapacity": 281.2999581623665,
+    "efficiency": 65.76609581051478
+  },
+  {
+    "name": "SF  Obere Scheidbahn II",
+    "theoreticalMaxCapacity": 1354.5514715149332,
+    "efficiency": 70.13391664899363
+  },
+  {
+    "name": "SF Pezidbahn",
+    "theoreticalMaxCapacity": 2865.9062246842104,
+    "efficiency": 72.36803431098066
+  },
+  {
+    "name": "SF Planseggbahn",
+    "theoreticalMaxCapacity": 3093.6473479481865,
+    "efficiency": 71.46903804230988
+  },
+  {
+    "name": "SF Scheidbahn",
+    "theoreticalMaxCapacity": 2457.296859753716,
+    "efficiency": 75.489454708615
+  },
+  {
+    "name": "SF Sunliner Berg",
+    "theoreticalMaxCapacity": 171.86820887679616,
+    "efficiency": 65.74805238181315
+  },
+  {
+    "name": "SF Sunliner Tal",
+    "theoreticalMaxCapacity": 1384.0422302369625,
+    "efficiency": 72.39663487930184
+  },
+  {
+    "name": "WA Puinzbahn",
+    "theoreticalMaxCapacity": 1202.3914658543367,
+    "efficiency": 70.27661323257988
+  },
+  {
+    "name": "WA Waldbahn Bergstation",
+    "theoreticalMaxCapacity": 387.5975353128443,
+    "efficiency": 78.43187128489618
+  },
+  {
+    "name": "WA Waldbahn Talstation",
+    "theoreticalMaxCapacity": 1717.2744167052729,
+    "efficiency": 79.90860322910828
+  }
+]

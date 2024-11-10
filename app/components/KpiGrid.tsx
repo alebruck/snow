@@ -5,9 +5,9 @@ interface LoadStatusProps {
   lift: Lift;
 }
 
-function KpiCell({ lift: { name, maxCapacity } }: LoadStatusProps) {
-  const theoreticalMaxCapacity = maxCapacity * (1.25 + Math.random() * 0.3);
-
+function KpiCell({
+  lift: { name, maxCapacity, theoreticalMaxCapacity },
+}: LoadStatusProps) {
   const efficiency = (maxCapacity / theoreticalMaxCapacity) * 100;
 
   return (
@@ -29,7 +29,7 @@ interface GridListProps {
 export default function KpiGrid({ lifts }: GridListProps) {
   return (
     <div>
-      <h1>Max Capacity</h1>
+      <h1>Lift Efficiency</h1>
 
       <p className="text-gray-500">
         The number shows the calculated max capacity in relation to the

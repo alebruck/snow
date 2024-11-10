@@ -1,5 +1,6 @@
 import data from "./data.json";
 import geoList from "./geodata.json";
+import capacity from "./capacity.json";
 
 export interface Lift {
   name: string;
@@ -7,6 +8,7 @@ export interface Lift {
   longitude: number | undefined;
   load: Record<string, number>;
   maxCapacity: number;
+  theoreticalMaxCapacity: number;
 }
 
 export function fetchData(): Array<Lift> {
@@ -17,12 +19,14 @@ export function fetchData(): Array<Lift> {
     ) => {
       if (acc.length === 0 || acc[acc.length - 1].name !== lift) {
         const geo = geoList.find((geo) => geo.skidata_name === lift);
+        const capacityData = capacity.find((c) => c.name === lift);
         acc.push({
           name: lift,
           latitude: geo?.latitude,
           longitude: geo?.longitude,
           load: {},
           maxCapacity: 0,
+          theoreticalMaxCapacity: capacityData?.theoreticalMaxCapacity || 0,
         });
       }
       acc[acc.length - 1].load[`${day_of_week}-${hour_of_day}`] =
