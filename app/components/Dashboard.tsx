@@ -1,6 +1,6 @@
 import { Disclosure, DisclosureButton } from "@headlessui/react";
 import { Bars3Icon, BellIcon, XMarkIcon } from "@heroicons/react/24/outline";
-import { NavLink, Outlet } from "@remix-run/react";
+import { Link, NavLink, Outlet } from "@remix-run/react";
 import classNames from "classnames";
 import slopeflux from "./slopeflux.png";
 
@@ -11,7 +11,7 @@ export default function Dashboard() {
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="flex h-25 justify-between">
             <div className="flex">
-              <div className="flex shrink-0 items-center">
+              <Link to="/" className="flex shrink-0 items-center">
                 <img
                   alt="SlopeFlux"
                   src={slopeflux}
@@ -22,7 +22,7 @@ export default function Dashboard() {
                   src={slopeflux}
                   className="hidden h-24 w-auto lg:block"
                 />
-              </div>
+              </Link>
               <div className="hidden sm:-my-px sm:ml-6 sm:flex sm:space-x-8">
                 <NavLink
                   to="/"
