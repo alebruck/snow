@@ -37,7 +37,7 @@ export default function Dashboard() {
                     )
                   }
                 >
-                  Dashboard
+                  KPIs
                 </NavLink>
                 <NavLink
                   to="/capacity"

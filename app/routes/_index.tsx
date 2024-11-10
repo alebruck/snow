@@ -33,7 +33,7 @@ export default function Index() {
       <dl className="grid grid-cols-1 gap-0.5 overflow-hidden rounded-2xl text-center sm:grid-cols-2 lg:grid-cols-3 mb-4">
         <Link to="/realtime" className="flex flex-col bg-gray-400/5 p-8">
           <dt className="text-sm/6 font-semibold text-gray-600">
-            Average of Current Load
+            Average of Realtime Load
           </dt>
           <dd className="order-first text-3xl font-semibold tracking-tight text-gray-900">
             <Gauge percentage={averageLoad} />
