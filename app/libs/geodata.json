@@ -1,0 +1,230 @@
+[
+  {
+    "skidata_name": "SF Komperdell Talstation",
+    "official_name": "Komperdellbahn Talstation",
+    "latitude": 47.0409598,
+    "longitude": 10.5962387
+  },
+  {
+    "skidata_name": "SF Komperdell Mitte Bergfahrt",
+    "official_name": "Komperdellbahn Mitte Bergfahrt",
+    "latitude": 47.043418,
+    "longitude": 10.5900468
+  },
+  {
+    "skidata_name": "SF Komperdell Mitte Talfahrt",
+    "official_name": "Komperdellbahn Mitte Talfahrt",
+    "latitude": 47.043418,
+    "longitude": 10.5900468
+  },
+  {
+    "skidata_name": "SF Komperdell Berg Talfahrt",
+    "official_name": "Komperdellbahn Bergstation",
+    "latitude": 47.0398665,
+    "longitude": 10.5629865
+  },
+  {
+    "skidata_name": "SF Alpkopfbahn",
+    "official_name": "Alpkopfbahn Talstation",
+    "latitude": 47.0403817,
+    "longitude": 10.5964347
+  },
+  {
+    "skidata_name": "SF Alpkopf Mitte",
+    "official_name": "Alpkopfbahn Mitte Bergfahrt",
+    "latitude": 47.0375353,
+    "longitude": 10.5806879
+  },
+  {
+    "skidata_name": "SF Alpkopf Berg Talfahrt",
+    "official_name": "Alpkopfbahn Bergstation",
+    "latitude": 47.0356813,
+    "longitude": 10.5704316
+  },
+  {
+    "skidata_name": "SF Sunliner Tal",
+    "official_name": "Sunliner Talstation",
+    "latitude": 47.0408301,
+    "longitude": 10.5953119
+  },
+  {
+    "skidata_name": "SF Sunliner Berg",
+    "official_name": "Sunliner Bergstation",
+    "latitude": 47.0516914,
+    "longitude": 10.5919898
+  },
+  {
+    "skidata_name": "SF Lazidbahn",
+    "official_name": "Lazidbahn Talstation",
+    "latitude": 47.0397245,
+    "longitude": 10.5623899
+  },
+  {
+    "skidata_name": "SF Lazid Talfahrt",
+    "official_name": "Lazidbahn Bergstation",
+    "latitude": 47.0348527,
+    "longitude": 10.545909
+  },
+  {
+    "skidata_name": "SF Familienbahn Gampen",
+    "official_name": "Familienbahn Gampen",
+    "latitude": 47.0420514,
+    "longitude": 10.5714283
+  },
+  {
+    "skidata_name": "SF 4-SK Alpkopf",
+    "official_name": "4SB-Alpkopf",
+    "latitude": 47.0360782,
+    "longitude": 10.5706722
+  },
+  {
+    "skidata_name": "SF Planseggbahn",
+    "official_name": "Planseggbahn",
+    "latitude": 47.041817,
+    "longitude": 10.5685503
+  },
+  {
+    "skidata_name": "SF Königsleithebahn",
+    "official_name": "Königsleithebahn",
+    "latitude": 47.0462186,
+    "longitude": 10.5886518
+  },
+  {
+    "skidata_name": "SF Scheidbahn",
+    "official_name": "Scheidbahn",
+    "latitude": 47.0404333,
+    "longitude": 10.5448419
+  },
+  {
+    "skidata_name": "SF  Obere Scheidbahn II",
+    "official_name": "Obere Scheidbahn",
+    "latitude": 47.0404601,
+    "longitude": 10.5445644
+  },
+  {
+    "skidata_name": "SF Lawensbahn",
+    "official_name": "Lawensbahn",
+    "latitude": 47.02324,
+    "longitude": 10.5528532
+  },
+  {
+    "skidata_name": "SF Pezidbahn",
+    "official_name": "Pezidbahn",
+    "latitude": 47.0289614,
+    "longitude": 10.5242358
+  },
+  {
+    "skidata_name": "WA Waldbahn Talstation",
+    "official_name": "Waldbahn Talstation",
+    "latitude": 47.0539979,
+    "longitude": 10.6087074
+  },
+  {
+    "skidata_name": "WA Waldbahn Bergstation",
+    "official_name": "Waldbahn Bergstation",
+    "latitude": 47.0518056,
+    "longitude": 10.5921193
+  },
+  {
+    "skidata_name": "WA Puinzbahn",
+    "official_name": "Puinzbahn",
+    "latitude": 47.0544917,
+    "longitude": 10.5970673
+  },
+  {
+    "skidata_name": "FI Schönjochbahn Talst.",
+    "official_name": "Schönjochbahn Talstation",
+    "latitude": 47.0571722,
+    "longitude": 10.6129868
+  },
+  {
+    "skidata_name": "FI Schönjoch Mitte Bergfahrt",
+    "official_name": "Schönjoch Mitte Bergfahrt",
+    "latitude": 47.0654797,
+    "longitude": 10.5967137
+  },
+  {
+    "skidata_name": "FI Schönjochbahn Berg",
+    "official_name": "Schönjochbahn Bergstation",
+    "latitude": 47.075183,
+    "longitude": 10.5893317
+  },
+  {
+    "skidata_name": "FI Möseralm Fiss",
+    "official_name": "Möseralmbahn Talstation",
+    "latitude": 47.0567321,
+    "longitude": 10.613643
+  },
+  {
+    "skidata_name": "FI Möseralmbahn Berg",
+    "official_name": "Möseralmbahn Bergstation",
+    "latitude": 47.0595871,
+    "longitude": 10.5924172
+  },
+  {
+    "skidata_name": "FI Ladis Talstation",
+    "official_name": "Sonnenbahn Talstation",
+    "latitude": 47.0704089,
+    "longitude": 10.6451268
+  },
+  {
+    "skidata_name": "FI Sonnenbahn Fiss",
+    "official_name": "Sonnenbahn Bergstation",
+    "latitude": 47.0567485,
+    "longitude": 10.6138236
+  },
+  {
+    "skidata_name": "FI Rastbahn",
+    "official_name": "Rastbahn",
+    "latitude": 47.057087,
+    "longitude": 10.5971285
+  },
+  {
+    "skidata_name": "FI Sattelbahn",
+    "official_name": "Sattelbahn",
+    "latitude": 47.0578623,
+    "longitude": 10.5971405
+  },
+  {
+    "skidata_name": "FI Schöngampbahn",
+    "official_name": "Schöngampbahn",
+    "latitude": 47.0880569,
+    "longitude": 10.5902198
+  },
+  {
+    "skidata_name": "FI 12er-Bahn",
+    "official_name": "12er-Bahn",
+    "latitude": 47.0880657,
+    "longitude": 10.579787
+  },
+  {
+    "skidata_name": "FI Almbahn",
+    "official_name": "Almbahn",
+    "latitude": 47.0902592,
+    "longitude": 10.5761255
+  },
+  {
+    "skidata_name": "FI Poschilift",
+    "official_name": "Poschilift",
+    "latitude": 47.0583401,
+    "longitude": 10.6202199
+  },
+  {
+    "skidata_name": "FI Übungslift Fiss",
+    "official_name": "Pedruslift",
+    "latitude": 47.0555905,
+    "longitude": 10.6118396
+  },
+  {
+    "skidata_name": "FI Möserlift",
+    "official_name": "Möserlift",
+    "latitude": 47.060755,
+    "longitude": 10.5926977
+  },
+  {
+    "skidata_name": "FI Wonnelift",
+    "official_name": "Wonnelift",
+    "latitude": 47.062705,
+    "longitude": 10.5950203
+  }
+]
