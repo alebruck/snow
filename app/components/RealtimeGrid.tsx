@@ -1,3 +1,4 @@
+import { Link } from "@remix-run/react";
 import classNames from "classnames";
 import { Lift } from "~/libs/data";
 
@@ -33,13 +34,14 @@ function getLoadStatusText(load: number | undefined) {
   if (load === undefined) {
     return "Unknown";
   } else if (load < 90) {
-    return "Operational";
+    return "Optimal";
   } else if (load < 95) {
-    return "Issues";
+    return "Warning";
   } else {
-    return "Congested";
+    return "Max Capacity";
   }
 }
+
 interface LoadStatusTickProps {
   load: number | undefined;
   forecast?: boolean;
@@ -96,7 +98,7 @@ function generateDayHourList(
 
 function LoadStatus({ lift: { name, load } }: LoadStatusProps) {
   const day = 4;
-  const hour = 13;
+  const hour = 12;
 
   const { historicHourDayList, forecastedHourDayList } = generateDayHourList(
     day,
@@ -107,7 +109,10 @@ function LoadStatus({ lift: { name, load } }: LoadStatusProps) {
 
   const mostRecentLoad = load[`${day}-${hour}`];
   return (
-    <div className="flex-1">
+    <Link
+      to={`/lifts/${name}/${getLoadStatusText(mostRecentLoad)}`}
+      className="flex-1"
+    >
       <div className="flex items-center justify-between mb-1">
         <span className="font-semibold text-gray-700">{name}</span>
         <span
@@ -139,18 +144,18 @@ function LoadStatus({ lift: { name, load } }: LoadStatusProps) {
           ))}
         </div>
       </div>
-    </div>
+    </Link>
   );
 }
 
-interface GridListProps {
+interface RealtimeGridProps {
   lifts: Array<Lift>;
 }
 
-export default function GridList({ lifts }: GridListProps) {
+export default function RealtimeGrid({ lifts }: RealtimeGridProps) {
   return (
     <div>
-      <ul className="mt-3 grid grid-cols-1 gap-5 sm:grid-cols-2 sm:gap-6 lg:grid-cols-4">
+      <ul className="mt-3 grid gap-8 grid-cols-4">
         {lifts.map((lift) => (
           <li key={lift.name} className="col-span-1 flex rounded-md shadow-sm">
             <LoadStatus lift={lift} />
