@@ -23,6 +23,11 @@ export default function Index() {
       return acc + load;
     }, 0) / data.lifts.length;
 
+  const averageOfMaxCapacity =
+    data.lifts.reduce((acc, lift) => {
+      return acc + (lift.maxCapacity / lift.theoreticalMaxCapacity) * 100;
+    }, 0) / data.lifts.length;
+
   return (
     <div className="flex-1">
       <dl className="grid grid-cols-1 gap-0.5 overflow-hidden rounded-2xl text-center sm:grid-cols-2 lg:grid-cols-3 mb-4">
@@ -39,7 +44,7 @@ export default function Index() {
             Average of Maximum Load
           </dt>
           <dd className="order-first text-3xl font-semibold tracking-tight text-gray-900">
-            <Gauge percentage={75} />
+            <Gauge percentage={averageOfMaxCapacity} />
           </dd>
         </Link>
         <Link to="/realtime" className="flex flex-col bg-gray-400/5 p-8">
