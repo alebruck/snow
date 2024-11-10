@@ -1,8 +1,19 @@
-import { Disclosure, DisclosureButton } from "@headlessui/react";
+import {
+  Disclosure,
+  DisclosureButton,
+  DisclosurePanel,
+} from "@headlessui/react";
 import { Bars3Icon, BellIcon, XMarkIcon } from "@heroicons/react/24/outline";
 import { Link, NavLink, Outlet } from "@remix-run/react";
 import classNames from "classnames";
 import slopeflux from "./slopeflux.png";
+
+const navigation = [
+  { name: "KPIs", href: "/" },
+  { name: "Efficiency", href: "/capacity" },
+  { name: "Realtime", href: "/realtime" },
+  { name: "Map", href: "/map" },
+];
 
 export default function Dashboard() {
   return (
@@ -11,7 +22,7 @@ export default function Dashboard() {
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="flex h-25 justify-between">
             <div className="flex">
-              <Link to="/" className="flex shrink-0 items-center">
+              <Link to={"/"} className="flex shrink-0 items-center">
                 <img
                   alt="SlopeFlux"
                   src={slopeflux}
@@ -24,66 +35,24 @@ export default function Dashboard() {
                 />
               </Link>
               <div className="hidden sm:-my-px sm:ml-6 sm:flex sm:space-x-8">
-                <NavLink
-                  to="/"
-                  className={({ isActive }) =>
-                    classNames(
-                      "inline-flex items-center px-1 pt-1 text-sm font-medium",
-                      {
-                        "border-indigo-500 text-gray-900": isActive,
-                        "border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700":
-                          !isActive,
-                      }
-                    )
-                  }
-                >
-                  KPIs
-                </NavLink>
-                <NavLink
-                  to="/capacity"
-                  className={({ isActive }) =>
-                    classNames(
-                      "inline-flex items-center px-1 pt-1 text-sm font-medium",
-                      {
-                        "border-indigo-500 text-gray-900": isActive,
-                        "border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700":
-                          !isActive,
-                      }
-                    )
-                  }
-                >
-                  Efficiency
-                </NavLink>
-                <NavLink
-                  to="/realtime"
-                  className={({ isActive }) =>
-                    classNames(
-                      "inline-flex items-center px-1 pt-1 text-sm font-medium",
-                      {
-                        "border-indigo-500 text-gray-900": isActive,
-                        "border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700":
-                          !isActive,
-                      }
-                    )
-                  }
-                >
-                  Realtime
-                </NavLink>
-                <NavLink
-                  to="/map"
-                  className={({ isActive }) =>
-                    classNames(
-                      "inline-flex items-center px-1 pt-1 text-sm font-medium",
-                      {
-                        "border-indigo-500 text-gray-900": isActive,
-                        "border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700":
-                          !isActive,
-                      }
-                    )
-                  }
-                >
-                  Map
-                </NavLink>
+                {navigation.map((item) => (
+                  <NavLink
+                    key={item.name}
+                    to={item.href}
+                    className={({ isActive }) =>
+                      classNames(
+                        "inline-flex items-center px-1 pt-1 text-sm font-medium",
+                        {
+                          "border-indigo-500 text-gray-900": isActive,
+                          "border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700":
+                            !isActive,
+                        }
+                      )
+                    }
+                  >
+                    {item.name}
+                  </NavLink>
+                ))}
               </div>
             </div>
             <div className="hidden sm:ml-6 sm:flex sm:items-center">
@@ -113,6 +82,20 @@ export default function Dashboard() {
             </div>
           </div>
         </div>
+        <DisclosurePanel className="sm:hidden">
+          <div className="space-y-1 pb-3 pt-2">
+            {navigation.map((item) => (
+              <DisclosureButton
+                key={item.name}
+                as="a"
+                href={item.href}
+                className="border-transparent text-gray-600 hover:border-gray-300 hover:bg-gray-50 hover:text-gray-800, block border-l-4 py-2 pl-3 pr-4 text-base font-medium"
+              >
+                {item.name}
+              </DisclosureButton>
+            ))}
+          </div>
+        </DisclosurePanel>
       </Disclosure>
 
       <div className="py-10 flex flex-col flex-1">
